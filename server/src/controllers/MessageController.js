@@ -131,7 +131,7 @@ export default class MessageController {
             }
           })
           .then(detailsDeleted => {
-            return handleResponse(res, 200, 'Sms successfully retrieved', sms, true);
+            return handleResponse(res, 200, 'Sms successfully deleted', sms, true);
           })
           .catch(err => {
             return handleResponse(res, 400, 'Error occured during deletion', err, false);
