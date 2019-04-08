@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "sms_mangt_dev",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": null,
+    "database": "sms_mangt_testDb",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "use_env_variable": "DATABASE_URL",
+    "dialect": "postgres",
+    "operatorAliases": false
+  }
+}
